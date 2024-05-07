@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class VendorHistoricalPerformanceConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'vendor_historical_performance'
+    name = 'vendor_performance'

@@ -1,6 +1,6 @@
 from django.db.models import *
 from purchase_order.models import PurchaseOrder
-from vendor_historical_performance.models import HistoricalPerformance
+from vendor_performance.models import HistoricalPerformance
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 from django.utils import timezone

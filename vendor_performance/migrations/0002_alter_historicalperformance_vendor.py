@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('vendor', '0003_alter_vendor_options'),
-        ('vendor_historical_performance', '0001_initial'),
+        ('vendor_performance', '0001_initial'),
     ]
 
     operations = [

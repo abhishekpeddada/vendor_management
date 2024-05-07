@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'vendor.apps.VendorConfig',
     'purchase_order.apps.PurchaseOrderConfig',
-    'vendor_historical_performance.apps.VendorHistoricalPerformanceConfig',
+    'vendor_performance.apps.VendorHistoricalPerformanceConfig',
 ]
 
 MIDDLEWARE = [
@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'testapi.urls'
+ROOT_URLCONF = 'project_vendor_management.urls'
 
 TEMPLATES = [
     {
@@ -61,7 +61,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'testapi.wsgi.application'
+WSGI_APPLICATION = 'project_vendor_management.wsgi.application'
 
 
 # Database
